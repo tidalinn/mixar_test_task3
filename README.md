@@ -3,3 +3,5 @@
 ### Задание 3 (JavaScript)
 
 Тестирование на должность разработчика [MIXAR Test Task.doc](https://docs.google.com/document/d/1Wu1dDaJ2GZN9qN-XXJd-xG1V-Bepl90G6p05zNyDxlY/edit?usp=sharing)
+
+>Run on Visual Studio Code with `"Go Live"` server option.
