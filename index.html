@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Starship Battle</title>
+</head>
+
+<body>
+    <h1>Starship Battle</h1>
+
+    <div class="container">
+
+        <div class="ship" id="shipA">
+            <h2>Ship A</h2>
+
+            <div class="stats">
+                <p class="health">Health: <span></span></p>
+                <p class="shield">Shield: <span></span></p>
+                <p class="speed">Speed: <span></span></p>
+                <p class="damage">Damage: <span></span></p>
+                <p class="shieldRecovery">Shield Recovery: <span></span></p>
+            </div>
+
+            <div class="upgrade">
+                <h3>Upgrade</h3>
+                <p class="shipGuns"></p>
+                <p class="shipModules"></p>
+            </div>
+
+            <div class="weapon">
+                <h3>Guns</h3>
+                <select class="shipGuns" multiple>
+                    <option value="GunA">Gun A</option>
+                    <option value="GunB">Gun B</option>
+                    <option value="GunC">Gun C</option>
+                </select>
+            </div>
+
+            <div class="weapon">
+                <h3>Modules</h3>
+                <select class="shipModules" multiple>
+                    <option value="ModuleA">Module A</option>
+                    <option value="ModuleB">Module B</option>
+                    <option value="ModuleC">Module C</option>
+                    <option value="ModuleD">Module D</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="ship" id="shipB">
+            <h2>Ship B</h2>
+
+            <div class="stats">
+                <p class="health">Health: <span></span></p>
+                <p class="shield">Shield: <span></span></p>
+                <p class="speed">Speed: <span></span></p>
+                <p class="damage">Damage: <span></span></p>
+                <p class="shieldRecovery">Shield Recovery: <span></span></p>
+            </div>
+
+            <div class="upgrade">
+                <h3>Upgrade</h3>
+                <p class="shipGuns"></p>
+                <p class="shipModules"></p>
+            </div>
+
+            <div class="weapon">
+                <h3>Guns</h3>
+                <select class="shipGuns" multiple>
+                    <option value="GunA">Gun A</option>
+                    <option value="GunB">Gun B</option>
+                    <option value="GunC">Gun C</option>
+                </select>
+            </div>
+
+            <div class="weapon">
+                <h3>Modules</h3>
+                <select class="shipModules" multiple>
+                    <option value="ModuleA">Module A</option>
+                    <option value="ModuleB">Module B</option>
+                    <option value="ModuleC">Module C</option>
+                    <option value="ModuleD">Module D</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="outcome">
+        <h2>Battle Outcome</h2>
+        <p id="battleOutcome"></p>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
